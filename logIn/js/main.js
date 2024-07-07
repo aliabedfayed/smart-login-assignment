@@ -19,7 +19,7 @@ function checkUser() {
         if (signInEmail.value == users[i].email && signInPassword.value == users[i].password) {
             let userName = users[i].name
             localStorage.setItem('userName', userName)
-            location.href = '../home/index.html'
+            location.href = '../home/home.html'
         }
     }
 }
