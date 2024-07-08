@@ -21,7 +21,7 @@ function add() {
             password: signUpPassword.value
         }
         users.push(user)
-        location.href = '../logIn/logIn.html'
+        location.href = 'logIn/logIn.html'
         localStorage.setItem('user', JSON.stringify(users))
     }
 }
